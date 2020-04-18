@@ -8,4 +8,4 @@ A chrome extension that allows users to instantly get torrent link of the movie/
 ![Imgur Image](https://i.imgur.com/7clMdKg.png)
 ![Imgur Image](https://i.imgur.com/bjSMWt7.png)
 ## Demo
-[Click here](https://drive.google.com/open?id=1xTicGLedxsVsPYK43qRjOQsamnJmdywb) to view video demo.
+[Click here](https://drive.google.com/file/d/15SL96qQ319dBYI1v-Jnp66RdZU-WoSFK/view) to view video demo.
