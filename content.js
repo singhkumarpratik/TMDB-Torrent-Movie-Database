@@ -15,8 +15,8 @@ if(Object.values(imdbList).includes(locList)){
 }
 else{
     locId=loc[1].split('/')[1];
-    var item= document.getElementById('titleYear');
-    if (item){
+    if(document.getElementById('titleYear')){
+        var item=document.getElementById('titleYear');
         item.innerHTML +='<span class="lister-item-year text-muted">'+ '<a href=https://thepiratebay.org/search.php?q=' + locId +' target="_blank">'+'<img src='+imgURL2+' alt="TPB">'+'</a>'+'</span>'+'<span class="lister-item-year text-muted">'+ '<a href=https://rarbgaccess.org/torrents.php?search=' + locId +' target="_blank">'+'<img src='+imgURL1+' alt="RARBG">'+'</a>'+'</span>';
     }
     else{
