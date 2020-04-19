@@ -3,9 +3,6 @@
 	"name": "TMDB-Torrent Movie Database",
 	"description": "Directly get torrent link of your favorite movie/TV show!",
 	"version": "1.0",
-	"permissions": [
-    "activeTab"
-	],
 	"web_accessible_resources":[
 		"*.png"
 	],
