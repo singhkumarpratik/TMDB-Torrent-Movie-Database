@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "TMDB-Torrent Movie Database",
 	"description": "Directly get torrent link of your favorite movie/TV show!",
-	"version": "1.0",
+	"version": "1.01",
 	"web_accessible_resources":[
 		"*.png"
 	],
@@ -13,8 +13,10 @@
 		{
 			"matches": [
 				"https://www.imdb.com/list/*",
-				"https://www.imdb.com/best-of/*/*/",
-				"https://www.imdb.com/title/*/*"
+				"https://www.imdb.com/best-of/*",
+				"https://www.imdb.com/title/*",
+				"https://www.imdb.com/search/title*",
+				"https://www.imdb.com/user/*/watchlist"
 			],
 			"js": ["content.js"]
 		}

@@ -1,4 +1,4 @@
-var imdbList=['list','best-of'];
+var imdbList=['list','best-of','search','user'];
 loc=location.href;
 loc=loc.split('https://www.imdb.com/');
 locList=loc[1].split('/')[0];
